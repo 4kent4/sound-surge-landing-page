@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/sound-surge-landing-page/static/css/main.b79bf383.css",
+    "main.js": "/sound-surge-landing-page/static/js/main.09790e07.js",
+    "static/media/titan.png": "/sound-surge-landing-page/static/media/titan.cb4ad44d6557e900adf2.png",
+    "static/media/Model1.png": "/sound-surge-landing-page/static/media/Model1.9ed0e71b255e2615d789.png",
+    "static/media/sonic.png": "/sound-surge-landing-page/static/media/sonic.5132ad774b904790f6d6.png",
+    "static/media/airwave.png": "/sound-surge-landing-page/static/media/airwave.cc7c42a63ad2ed2ca892.png",
+    "static/media/logo.svg": "/sound-surge-landing-page/static/media/logo.a6566263374aee30bd415582cbe9b704.svg",
+    "index.html": "/sound-surge-landing-page/index.html",
+    "main.b79bf383.css.map": "/sound-surge-landing-page/static/css/main.b79bf383.css.map",
+    "main.09790e07.js.map": "/sound-surge-landing-page/static/js/main.09790e07.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b79bf383.css",
+    "static/js/main.09790e07.js"
+  ]
+}

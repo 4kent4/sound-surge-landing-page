@@ -1,0 +1,92 @@
+.soundsurge__header-content__input button {
+	padding: 0.5rem 1rem;
+	color: #fff;
+	background: brown;
+	font-family: var(--font-family);
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 25px;
+	border-radius: 5px;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	margin-top: 1.5rem;
+}
+
+.soundsurge__header {
+	display: flex;
+}
+
+.soundsurge__header-content {
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	flex-direction: column;
+
+	margin-right: 5rem;
+}
+
+.soundsurge__header-content h1 {
+	font-family: var(--font-family);
+	font-weight: 800;
+	font-size: 62px;
+	line-height: 75px;
+
+	letter-spacing: 0.04em;
+}
+
+.soundsurge__header-content p {
+	font-family: var(--font-family);
+	font-size: 20px;
+	line-height: 27px;
+
+	color: #fff;
+	margin-top: 1.5rem;
+}
+
+.soundsurge__header-image {
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.soundsurge__header-image img {
+	width: 100%;
+	height: 100%;
+}
+
+@media screen and (max-width: 1050px) {
+	.soundsurge__header {
+		flex-direction: column;
+	}
+
+	.soundsurge__header-content {
+		margin: 0 0 3rem;
+	}
+}
+
+@media screen and (max-width: 650px) {
+	.soundsurge__header h1 {
+		font-size: 48px;
+		line-height: 60px;
+	}
+
+	.soundsurge__header p {
+		font-size: 16px;
+		line-height: 24px;
+	}
+}
+
+@media screen and (max-width: 490px) {
+	.soundsurge__header h1 {
+		font-size: 36px;
+		line-height: 48px;
+	}
+
+	.soundsurge__header p {
+		font-size: 14px;
+		line-height: 24px;
+	}
+}

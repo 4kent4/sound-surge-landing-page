@@ -1,12 +1,5 @@
-import {
-	Blog,
-	Features,
-	Footer,
-	Header,
-	Possibility,
-	WhatSoundSurge,
-} from './containers';
-import { Navbar, Article, Feature, Brand, CTA } from './components';
+import { Features, Footer, Header, WhatSoundSurge } from './containers';
+import { Navbar } from './components';
 import './App.css';
 
 const App = () => {
@@ -16,12 +9,10 @@ const App = () => {
 				<Navbar />
 				<Header />
 			</div>
-			<Brand />
+
 			<WhatSoundSurge />
 			<Features />
-			<Possibility />
-			<CTA />
-			<Blog />
+
 			<Footer />
 		</div>
 	);

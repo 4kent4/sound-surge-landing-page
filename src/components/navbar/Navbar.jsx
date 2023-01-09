@@ -6,19 +6,13 @@ import logo from '../../assets/logo.svg';
 const Menu = () => (
 	<>
 		<p>
-			<a href="home">Home</a>
+			<a href="#home">Home</a>
 		</p>
 		<p>
-			<a href="wss">What is Sound Surge</a>
+			<a href="#about">About</a>
 		</p>
 		<p>
-			<a href="possibility">Tech Specs</a>
-		</p>
-		<p>
-			<a href="Features">Features</a>
-		</p>
-		<p>
-			<a href="blog">blogs</a>
+			<a href="#features">Features</a>
 		</p>
 	</>
 );
